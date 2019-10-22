@@ -1,0 +1,37 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "name": "Par ou ímpar?",
+          "smallIconUri": "https://user-images.githubusercontent.com/4256471/67254350-ee0f8180-f452-11e9-914f-51bcc0170dd4.png",
+          "largeIconUri": "https://user-images.githubusercontent.com/4256471/67254350-ee0f8180-f452-11e9-914f-51bcc0170dd4.png",
+          "summary": "Par ou ímpar",
+          "description": "Pergunte para a Alexa: par ou ímpar?",
+          "examplePhrases": [
+            "Par ou ímpar?"
+          ],
+          "keywords": [
+            "par",
+            "impar"
+          ]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Just say: \"Alexa, Par ou ímpar?\"",
+      "category": "Games & Trivia - Games",
+      "distributionCountries": [
+        "BR"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda",
+          "uri": "ask-par-ou-impar"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

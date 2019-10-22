@@ -1,0 +1,32 @@
+{
+    "interactionModel": {
+      "languageModel": {
+        "invocationName": "par ou impar",
+        "intents": [
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": [
+              "Cancelar"
+            ]
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": [
+              "Pare"
+            ]
+          },
+          {
+            "name": "AMAZON.NavigateHomeIntent",
+            "samples": []
+          }
+        ],
+        "types": []
+      }
+    },
+    "version": "1"
+  }
+  
