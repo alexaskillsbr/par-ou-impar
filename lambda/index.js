@@ -1,14 +1,13 @@
 const Alexa = require('ask-sdk-core');
-const axios = require('axios');
 
 const LaunchRequestHandler = {
     canHandle(handlerInput) {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const options = ['Par', 'Ímpar'];
+        const options = ['Par', 'ímpar'];
         const choosed = Math.round(Math.random());
-        const speakOutput = `Um, dois, três e... ${options[choosed]}`;
+        const speakOutput = `Um, dois, três e já: ${options[choosed]}`;
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -39,6 +38,7 @@ const CancelAndStopIntentHandler = {
     },
     handle(handlerInput) {
         const speakOutput = 'Até mais!';
+
         return handlerInput.responseBuilder
             .speak(speakOutput)
             .getResponse();

@@ -1,25 +1,35 @@
 {
   "manifest": {
+    "privacyAndCompliance": {
+      "locales": {
+        "pt-BR": {}
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
     "publishingInformation": {
       "locales": {
         "pt-BR": {
           "name": "Par ou ímpar?",
-          "smallIconUri": "https://user-images.githubusercontent.com/4256471/67254350-ee0f8180-f452-11e9-914f-51bcc0170dd4.png",
-          "largeIconUri": "https://user-images.githubusercontent.com/4256471/67254350-ee0f8180-f452-11e9-914f-51bcc0170dd4.png",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/ff6e/6525d2ff9ace4ddbad65a64925dd3778/APP_ICON?versionId=YTdpX1IzimZOU9Rw9LQ1MIHaRa7pRCS6&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191022T024941Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7cda7b364b109562c7fd7488a9c9f99bda87c383824dd3f4a19550860b731aa4",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/fb15/a0dbefc7857d462f86ad7665ea82da86/APP_ICON_LARGE?versionId=5INWaRgwyLFIbrKyx4dmgr_8sGZWyJ0e&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191022T024941Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=14cb81958170b4d42d99caca61161bc88fe59636e970855c15985ad4c4e5682f",
           "summary": "Par ou ímpar",
           "description": "Pergunte para a Alexa: par ou ímpar?",
           "examplePhrases": [
-            "Par ou ímpar?"
+            "Par ou impar?"
           ],
           "keywords": [
             "par",
-            "impar"
+            "ímpar"
           ]
         }
       },
       "isAvailableWorldwide": false,
       "testingInstructions": "Just say: \"Alexa, Par ou ímpar?\"",
-      "category": "Games & Trivia - Games",
+      "category": "GAMES",
       "distributionCountries": [
         "BR"
       ]
@@ -28,7 +38,7 @@
       "custom": {
         "endpoint": {
           "sourceDir": "lambda",
-          "uri": "ask-par-ou-impar"
+          "uri": "ask-custom-par-ou-impar-default"
         }
       }
     },
