@@ -7,7 +7,7 @@ const LaunchRequestHandler = {
     handle(handlerInput) {
         const options = ['Par', 'ímpar'];
         const choosed = Math.round(Math.random());
-        const speakOutput = `Um, dois, três e já: ${options[choosed]}`;
+        const speakOutput = `Ok, eu escolho ${options[choosed]}`;
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -21,7 +21,7 @@ const HelpIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.HelpIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'Diga apenas: Alexa, par ou ímpar?';
+        const speakOutput = 'Diga apenas: Alexa, jogar par ou ímpar';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)

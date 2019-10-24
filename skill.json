@@ -17,9 +17,8 @@
           "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/ff6e/6525d2ff9ace4ddbad65a64925dd3778/APP_ICON?versionId=YTdpX1IzimZOU9Rw9LQ1MIHaRa7pRCS6&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191022T024941Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7cda7b364b109562c7fd7488a9c9f99bda87c383824dd3f4a19550860b731aa4",
           "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/fb15/a0dbefc7857d462f86ad7665ea82da86/APP_ICON_LARGE?versionId=5INWaRgwyLFIbrKyx4dmgr_8sGZWyJ0e&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191022T024941Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=14cb81958170b4d42d99caca61161bc88fe59636e970855c15985ad4c4e5682f",
           "summary": "Par ou ímpar",
-          "description": "Inicie o jogo com Alexa: Par ou ímpar? Ela irá contar até três e escolher entre par ou ímpar. Você fica com o oposto escolhido por ela. Exemplo: Se a alexa escolheu Par e você ficou com o Ímpar, e mostrou o número 2, a Alexa venceu. Porém se a alexa escolheu Ímpar, você ficou com o Par e mostrou o número 4, você venceu.",
+          "description": "Inicie o jogo com: \"Alexa, jogar par ou ímpar\". Ela irá escolher entre par ou ímpar. Você fica com o oposto escolhido por ela. Exemplo: Se a alexa escolheu Par, você ficou com o Ímpar, se você mostrou o número 2, a Alexa venceu. Porém se a alexa escolheu Ímpar, você ficou com o Par e mostrou o número 4, você venceu. Essa skill funciona em qualquer dispositivo Amazon Echo e em breve exibirá o número escolhido pela alexa na tela dos dispositivos Echo show.",
           "examplePhrases": [
-            "Alexa, Par ou impar?",
             "Alexa, Jogar Par ou Ímpar"
           ],
           "keywords": [
@@ -29,7 +28,7 @@
         }
       },
       "isAvailableWorldwide": false,
-      "testingInstructions": "Just say: \"Alexa, Par ou ímpar?\"",
+      "testingInstructions": "Just say: \"Alexa, jogar par ou ímpar\"",
       "category": "GAMES",
       "distributionCountries": [
         "BR"
