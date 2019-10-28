@@ -4,4 +4,9 @@
 
 > Alexa, jogar par ou impar
 
-Inicie o jogo com: "Alexa, jogar par ou ímpar". Ela irá escolher entre par ou ímpar. Você fica com o oposto escolhido por ela. Exemplo: Se a alexa escolheu Par, você ficou com o Ímpar, se você mostrou o número 2, a Alexa venceu. Porém se a alexa escolheu Ímpar, você ficou com o Par e mostrou o número 4, você venceu. Essa skill funciona em qualquer dispositivo Amazon Echo e em breve exibirá o número escolhido pela alexa na tela dos dispositivos Echo show.
+Inicie o jogo com: "Alexa, jogar par ou ímpar". Ela irá escolher entre par ou ímpar e um número. Exemplo:
+
+- Usuário: "Alexa, jogar par ou ímpar".
+- Alexa: Ok, eu escolho par e mostro 4.
+
+Essa skill funciona em qualquer dispositivo Amazon Echo e em breve exibirá o número escolhido pela alexa na tela dos dispositivos Echo show.
