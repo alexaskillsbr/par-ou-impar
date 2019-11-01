@@ -9,7 +9,7 @@ const LaunchRequestHandler = {
   handle(handlerInput) {
     const options = ["Par", "ímpar"];
     const optionChoosed = Math.round(Math.random());
-    const numberChoosed = Math.floor(Math.random() * Math.floor(5)) + 1;
+    const numberChoosed = Math.floor(Math.random() * Math.floor(9)) + 1;
     const speakOutput = `Ok, eu escolho ${options[optionChoosed]} e mostro ${numberChoosed}`;
 
     return handlerInput.responseBuilder.speak(speakOutput).getResponse();
